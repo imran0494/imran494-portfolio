@@ -10,7 +10,7 @@ const achievementsList = [
   {
     prefix: "~",
     metric: "LinkedIn",
-    value: "212",
+    value: "700",
   },
   {
     prefix: "~",
@@ -19,7 +19,7 @@ const achievementsList = [
   },
   {
     metric: "Years",
-    value: "2",
+    value: "1",
     postfix: "+",
   },
 ];

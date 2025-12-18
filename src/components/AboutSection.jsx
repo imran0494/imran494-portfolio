@@ -1,5 +1,5 @@
-import React, { useState } from "react"; // Import useState hook
-import TabButton from "./TabButton"; // Assuming TabButton component is defined in TabButton.js
+import React, { useState } from "react";
+import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
@@ -7,14 +7,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>HTML5 / CSS3 / JavaScript</li>
-        <li>React</li>
+        <li>React Native / React JS</li>
+        <li>JavaScript / C++ </li>
+        <li>MERN</li>
         <li>Tailsind CSS</li>
-        <li>NodeJS</li>
-        <li>ExpressJS</li>
-        <li>MongoDB</li>
-        <li>Web Development</li>
-        <li>C++ / Python</li>
       </ul>
     ),
   },
@@ -45,7 +41,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills"); // Initialize state with useState hook
+  const [tab, setTab] = useState("skills");
 
   const handleTabChange = (id) => {
     setTab(id);
@@ -58,19 +54,21 @@ const AboutSection = () => {
           className="rounded-xl"
           src={"/images/about.jpg"}
           alt="About"
-          width={500}
-          height={500}
+          width={600}
+          height={600}
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            As a passionate ReactJS web developer, I specialize in crafting
-            immersive and dynamic user interfaces using HTML5, CSS3, and
-            JavaScript. Leveraging React&apos;s component-based architecture and
-            virtual DOM, I design scalable web applications with reusable and
-            efficient UI components. My expertise extends beyond the frontend to
-            include C++, Python, and Node.js, and I actively explore the
-            exciting realms of computer vision and machine learning. A quick
+            As a passionate ReactJS and React Native developer, I specialize in
+            crafting immersive and dynamic user interfaces for App (in IOS and
+            Android) and web. Leveraging React&apos;s component-based
+            architecture, I design scalable web and mobile applications with
+            reusable and efficient UI components. I consume Rest APIs, manage
+            state with Redux, and use Git and GitHub for version control and
+            collaboration. My expertise extends to backend development with
+            Node.js and programming in C++ and JavaScript, and I actively
+            explore the exciting realms of Generative AI and AI tools. A quick
             learner with a flair for adopting cutting-edge technologies, I bring
             a versatile and innovative approach to every project I undertake.
           </p>

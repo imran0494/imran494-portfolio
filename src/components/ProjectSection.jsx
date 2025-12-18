@@ -6,6 +6,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Party Menu App",
+    image: "/images/projects/partyMenuApp.png",
+    description:
+      "A mobile application that helps users to create and manage party menus with ease.",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/imran0494",
+    previewUrl: "https://github.com/imran0494/Party_Menu_Search_App",
+  },
+  {
+    id: 2,
     title: "React cards Slider",
     image: "/images/projects/cards-slider.png",
     description:
@@ -16,7 +26,7 @@ const projectsData = [
       "https://www.linkedin.com/posts/mohammad-imran-925782230_30dayschallenge-reactjs-framermotion-activity-7157453799106764800-z8hl?utm_source=share&utm_medium=member_desktop",
   },
   {
-    id: 2,
+    id: 3,
     title: "Currency Converter reactjs app",
     image: "/images/projects/currency-converter.jpeg",
     description:
@@ -27,7 +37,7 @@ const projectsData = [
       "https://www.linkedin.com/posts/mohammad-imran-925782230_30dayschallenge-reactjs-tailwindcss-activity-7153472372468076544-M8D5?utm_source=share&utm_medium=member_desktop",
   },
   {
-    id: 3,
+    id: 4,
     title: "Login and registeration form",
     image: "/images/projects/login-page.jpeg",
     description: "This is a Registration and Login page with beautiful UI.",
@@ -36,7 +46,7 @@ const projectsData = [
     previewUrl: "https://registerloginpage.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Progress Bar showing percentage of skills",
     image: "/images/projects/progress-bar.jpeg",
     description:
@@ -47,7 +57,7 @@ const projectsData = [
       "https://www.linkedin.com/posts/mohammad-imran-925782230_30dayschallenge-webdevelopment-html5-activity-7152712268747575296-p2wB?utm_source=share&utm_medium=member_desktop",
   },
   {
-    id: 5,
+    id: 6,
     title: "Weather forecast app",
     image: "/images/projects/weather-app.jpeg",
     description:
@@ -57,7 +67,7 @@ const projectsData = [
     previewUrl: "https://github.com/imran0494",
   },
   {
-    id: 6,
+    id: 7,
     title: "Image Slider",
     image: "/images/projects/image-slider.jpeg",
     description: "This is a image slider using html css .",
